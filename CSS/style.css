@@ -44,35 +44,48 @@ height: 500px;
 margin-bottom:300px;
 }
 
+.profile_pic img{
+    box-shadow: 10px 5px 5px red;
+}
 
-.project_one{
-    height: 580px;
+.project_layout{
    background-color: #dfaea1;
    display: flex;
    align-items:center;
+   align-items:flex-start;
+   flex-direction: column;
+   font-family: "Poppins", sans-serif;
+   padding: 200px;
+}
+
+.alternate_color{
+    background-color: #dfaea1;
+}
+
+.secondary_color{
+    background-color: #895159;
+}
+
+.third_color{
+    background-color: #F4A258;
+
 }
 
 .project_one h2 {
     margin-left: 100px;
 }
 
-.project_two{
-   height: 580px;
-   background-color: #895159;
-   display: flex;
-   align-items:center;
+.project_layout button{
+    font-family: "Poppins", sans-serif;
+    background-color: #ddd9d9;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .project_two h2 {
     margin-left: 100px;
 }
 
-.project_three{
-   height: 580px;
-   background-color: #F4A258;
-   display: flex;
-   align-items:center;
-}
 
 .project_three h2 {
     margin-left: 100px;
